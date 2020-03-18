@@ -32,6 +32,7 @@
   <link rel="stylesheet" href="css/plugins/loaders.min.css">
   <link rel="stylesheet" href="css/plugins/photoswipe.css">
   <link rel="stylesheet" href="css/icons/photoswipe/icons.css">
+  <link rel="stylesheet" href="css/plugins/owl.carousel.min.css">
 
 
   <!-- Custom CSS -->
@@ -69,7 +70,17 @@
   ================================= -->
 
     <!-- Image BG -->
-    <div class="section-overlay media page-image-bw reveal scale-in"></div>
+    <!-- Slider BG -->
+    <div class="section-overlay media">
+      <div id="page-slider" class="owl-carousel">
+        <div class="page-slide page-slide-1"></div>
+        <div class="page-slide page-slide-2"></div>
+        <div class="page-slide page-slide-3"></div>
+      </div>
+    </div>
+    <!-- /End Slider BG -->
+
+    <!-- <div class="section-overlay media page-image-bw reveal scale-in"></div> -->
     <!-- /End Image BG -->
 
     <!-- Overlay BG -->
@@ -192,7 +203,7 @@
             <div class="reveal scale-out">
 
               <!-- Count Down -->
-              <div class="count-down p-t-b-15" data-end-date="Mar 7, 2020 00:00:00">
+              <div class="count-down p-t-b-15" data-end-date="Apr 2, 2020 00:00:00">
               </div>
               <!-- /End Count Down -->
 
@@ -508,8 +519,9 @@
   <script src="js/plugins/contact-form.js"></script>
   <script src="js/plugins/newsletter-form.js"></script>
   <script src="js/plugins/jquery.ajaxchimp.min.js"></script>
-  <script src="js/plugins/photoswipe/photoswipe.min.js"></script>
-  <script src="js/plugins/photoswipe/photoswipe-ui-default.min.js"></script>
+  <!-- <script src="js/plugins/photoswipe/photoswipe.min.js"></script>
+  <script src="js/plugins/photoswipe/photoswipe-ui-default.min.js"></script> -->
+  <script src="js/plugins/owl.carousel.min.js"></script>
   <script src="js/plugins/jquery.countdown.min.js"></script>
   <script src="js/plugins/prefixfree.min.js"></script>
 
